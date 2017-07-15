@@ -1,5 +1,51 @@
 function Mostrar()
 {
+
+//MAXIMOS Y MINIMOS
+//==============================================
+	//Definimos variables
+	var contador=0;
+	var nota;
+	var notamayor;
+	var notamenor;
+
+	//Hacemos tres iteraciones
+	/*while(contador<3)
+	{
+		contador++;
+		console.log("Vuelta: ",contador);
+
+		//Ingresamos una nota(Usamos parseInt para que compare correctamente)
+		nota=parseInt(prompt("Ingrese nota"));
+
+		//Si es la primera nota, asignamos la misma como maximo y minimo
+		if(contador==1)
+		{
+			notamenor=nota;	
+			notamayor=nota;
+		}
+		//Si no es la primera nota, comparamos si asignarla como maximo o minimo
+		else
+		{
+			if(nota<notamenor)
+			{
+				notamenor=nota;
+			}
+
+			if(nota>notamayor)
+			{
+				notamayor=nota;
+			}
+		}
+	}
+
+	//Mostramos el maximo y el minimo obtenido
+	console.log("NOTA MENOR: ",notamenor);
+	console.log("NOTA MAYOR: ",notamayor);
+	*/
+
+//EJERCICIO 7
+//===================================================	
 	//Definimos e inicializamos las variables
 	var contador=0;
 	var acumulador=0;

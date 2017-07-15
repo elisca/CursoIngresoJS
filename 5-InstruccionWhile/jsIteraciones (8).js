@@ -1,6 +1,5 @@
 function Mostrar()
 {
-
 	var ac_pos=0;
 	var ac_neg=1;
 	var val;
